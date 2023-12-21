@@ -493,6 +493,7 @@ justify-content: space-between;
     .left-icons > .logo-container 
     {
         padding:.5rem 0;
+        cursor: pointer;
     }
     
     .logo-container > img 
