@@ -442,10 +442,9 @@ justify-content: space-between;
     
     .home-main
     {
-    
-    
-    
-    
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
     }
     
     .home-main > .header
@@ -464,7 +463,7 @@ justify-content: space-between;
         display: flex;
         flex-direction: row;
         cursor: pointer;
-    
+        align-items: center;
     
     
     }
@@ -493,14 +492,13 @@ justify-content: space-between;
     
     .left-icons > .logo-container 
     {
-        padding:1rem 0;
+        padding:.5rem 0;
     }
     
     .logo-container > img 
     {
-        height:1.25rem;
+        height:1rem;
     }
-    
     
     .header > .search-bar 
     {
@@ -579,7 +577,7 @@ justify-content: space-between;
         display: flex;
         flex-direction: row;
         align-items: center;
-        padding-right: .5rem;
+        padding-right: 1.5rem;
     }
     
     .icon-holder > .icon
